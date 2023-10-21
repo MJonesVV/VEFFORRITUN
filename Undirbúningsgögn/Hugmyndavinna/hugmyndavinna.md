@@ -4,18 +4,18 @@
 
 ## Skipulagð
 
-VESÞ1VG/
-├── Aefingaverkefni
-│   └── Verkefni_1
-│       ├── index.html
-│       └── style.css
-├── Undirbúningsgögn
-│   ├── Hugmyndavinna
-│   │   └── hugmyndavinna.md
-│   ├── Myndir
-│   └── Textaskjol
-└── VEFUR
-    └── index.html
+VESÞ1VG/  
+├── Aefingaverkefni  
+│   └── Verkefni_1  
+│       ├── index.html  
+│       └── style.css  
+├── Undirbúningsgögn  
+│   ├── Hugmyndavinna  
+│   │   └── hugmyndavinna.md  
+│   ├── Myndir  
+│   └── Textaskjol  
+└── VEFUR  
+    └── index.html  
 
 ### skipulag vefs
       |__ VEFUR 
