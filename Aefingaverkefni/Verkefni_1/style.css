@@ -13,5 +13,7 @@ h1 {
     color: rgb(189, 17, 17);
 }
 .poem {
-    margin-left: 4em;
+    padding: 2em 4em;
+    color: white;
+    background-color: rgb(68, 67, 67);
 }
