@@ -20,6 +20,7 @@ VESÞ1VG/  Verkmappan
 └── VEFUR  
     └── index.html - Forsíða
     └── Hver er MF DOOM?
+    └── Daniel Dumile
     └── Verk hans
     └── Persónur hans MF DOOM
     └── Af hverju MF DOOM?
@@ -29,6 +30,7 @@ VESÞ1VG/  Verkmappan
       |__ VEFUR 
          |_ index.html (Forsíða)
          |_ Hver er MF DOOM?
+         |_ Daniel Dumile
          |_ Tónlistin hans
          |_ Persónur hans MF DOOM
          |_ Af hverju MF DOOM?
@@ -39,5 +41,11 @@ https://en.wikipedia.org/wiki/MF_Doom
 https://www.newyorker.com/culture/postscript/the-wondrous-rhymes-of-mf-doom
 
 https://www.youtube.com/watch?v=JGu0ao_rdAk
+
+https://en.wikipedia.org/wiki/MF_Doom_discography
+
+https://www.hiphopscriptures.com/mf-doom
+
+
 
 
