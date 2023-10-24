@@ -20,7 +20,7 @@ VESÞ1VG/  Verkmappan
 └── VEFUR  
     └── index.html - Forsíða
     └── Hver er MF DOOM?
-    └── Tónlistin hans
+    └── Verk hans
     └── Persónur hans MF DOOM
     └── Af hverju MF DOOM?
 
