@@ -16,6 +16,7 @@ h1 {
     padding: 2em 4em;
     color: white;
     background-color: rgb(68, 67, 67);
+    border: 4px;
 }
 .heimildir {
     background-color: rgb(84, 238, 84);
