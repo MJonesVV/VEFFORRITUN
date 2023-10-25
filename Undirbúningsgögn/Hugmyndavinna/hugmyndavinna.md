@@ -2,7 +2,7 @@
 
 Ég ætla að fjalla um MF DOOM. Hann er breskur-amerískur rappari sem hefur gert frægar Hip-hop plötur eins og Madvillany og MMM.. Food. 
 
-## Skipulagð
+## Skipurit
 
 VESÞ1VG/  Verkmappan
 ├── Aefingaverkefni  
@@ -27,7 +27,7 @@ VESÞ1VG/  Verkmappan
     └── style.css
 
 
-### skipulag vefs
+### skipurit vefs
       |__ VEFUR 
          |_ index.html (Forsíða)
          |_ Hver er MF DOOM?
