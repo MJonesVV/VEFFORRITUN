@@ -12,11 +12,11 @@ VESÞ1VG/  Verkmappan
 ├── Undirbúningsgögn  
 │   ├── Hugmyndavinna   
 │   │   └── hugmyndavinna.md  
-.   .   - Geyma hugmyndir, heimildir og fleira  
+.    .    - Geyma hugmyndir, heimildir og fleira  
 │   ├── Myndir   
-.   .   - Geyma Myndir um MF DOOM  
+.    .    - Geyma Myndir um MF DOOM  
 │   └── Textaskjol   
-.   .   - Textinn sem verður notaður sem talar um MF DOOM  
+.    .    - Textinn sem verður notaður sem talar um MF DOOM  
 └── VEFUR   
     └── index.html - Forsíða  
     └── Hver er MF DOOM?  
