@@ -3,29 +3,29 @@
 Ég ætla að fjalla um MF DOOM. Hann er breskur-amerískur rappari sem hefur gert frægar Hip-hop plötur eins og Madvillany og MMM.. Food. 
 
 ## Skipurit
-
+<pre>
 VESÞ1VG/ #Verkmappan  
 ├── Aefingaverkefni  
-│&nbsp;&nbsp;&nbsp;&nbsp;└── Verkefni_1  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── index.html  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── style.css  
+│      └── Verkefni_1  
+│            ├── index.html  
+│            └── style.css  
 ├── Undirbúningsgögn  
-│&nbsp;&nbsp;&nbsp;&nbsp;├── Hugmyndavinna   
-│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── hugmyndavinna.md  
-.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Geyma hugmyndir, heimildir og fleira  
-│&nbsp;&nbsp;&nbsp;&nbsp;├── Myndir   
-.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Geyma Myndir um MF DOOM  
-│&nbsp;&nbsp;&nbsp;&nbsp;└── Textaskjol   
-.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Textinn sem verður notaður sem talar um MF DOOM  
+│      ├── Hugmyndavinna   
+│            └── hugmyndavinna.md  
+.      .      - Geyma hugmyndir, heimildir og fleira  
+│      ├── Myndir   
+.      .      - Geyma Myndir um MF DOOM  
+│      └── Textaskjol   
+.      .      - Textinn sem verður notaður sem talar um MF DOOM  
 └── VEFUR   
-&nbsp;&nbsp;&nbsp;&nbsp;└── index.html - Forsíða  
-&nbsp;&nbsp;&nbsp;&nbsp;└── Hver er MF DOOM?  
-&nbsp;&nbsp;&nbsp;&nbsp;└── Daniel Dumile  
-&nbsp;&nbsp;&nbsp;&nbsp;└── Verk hans  
-&nbsp;&nbsp;&nbsp;&nbsp;└── Persónur hans MF DOOM  
-&nbsp;&nbsp;&nbsp;&nbsp;└── Af hverju MF DOOM?  
-&nbsp;&nbsp;&nbsp;&nbsp;└── style.css
-
+      └── index.html - Forsíða  
+      └── Hver er MF DOOM?  
+      └── Daniel Dumile  
+      └── Verk hans  
+      └── Persónur hans MF DOOM  
+      └── Af hverju MF DOOM?  
+      └── style.css
+</pre>
 
 ### skipurit vefs
       |__ VEFUR 
