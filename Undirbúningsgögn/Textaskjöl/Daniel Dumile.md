@@ -1,1 +1,2 @@
-
+### Daniel Dumiles
+Daniel Dumile er MF DOOM, fæddur 13. júlí 1971 í London, England. Flutti til New York á ungum aldri. Hann tók þátt í rap hópnum KMD, þar tók hann nafnið "Zev Love X". Hópurinn endaði þegar DJ Subroc, bróðir Daniel Dumiel lést árið 1993. Eftir það gerði Dumile smá hluti fyrir utan rap, þangað til hann byrjaði aftur en notaði grímu til að fella andlitið sitt sem hann er þekktur fyrir í dag.
