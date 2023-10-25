@@ -10,20 +10,21 @@ VESÞ1VG/  Verkmappan
 │       ├── index.html  
 │       └── style.css  
 ├── Undirbúningsgögn  
-│   ├── Hugmyndavinna  
+│   ├── Hugmyndavinna   
 │   │   └── hugmyndavinna.md  
-.   .   - Geyma hugmyndir, heimildir og fleira 
-│   ├── Myndir  
-.   .   - Geyma Myndir um MF DOOM
-│   └── Textaskjol  
-.   .   - Textinn sem verður notaður sem talar um MF DOOM
-└── VEFUR  
-    └── index.html - Forsíða
-    └── Hver er MF DOOM?
-    └── Daniel Dumile
-    └── Verk hans
-    └── Persónur hans MF DOOM
-    └── Af hverju MF DOOM?
+.   .   - Geyma hugmyndir, heimildir og fleira  
+│   ├── Myndir   
+.   .   - Geyma Myndir um MF DOOM  
+│   └── Textaskjol   
+.   .   - Textinn sem verður notaður sem talar um MF DOOM  
+└── VEFUR   
+    └── index.html - Forsíða  
+    └── Hver er MF DOOM?  
+    └── Daniel Dumile  
+    └── Verk hans  
+    └── Persónur hans MF DOOM  
+    └── Af hverju MF DOOM?  
+    └── style.css
 
 
 ### skipulag vefs
@@ -34,6 +35,7 @@ VESÞ1VG/  Verkmappan
          |_ Tónlistin hans
          |_ Persónur hans MF DOOM
          |_ Af hverju MF DOOM?
+         |_ style.css
 
 ## Heimildir  
 https://en.wikipedia.org/wiki/MF_Doom
