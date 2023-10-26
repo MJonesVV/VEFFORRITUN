@@ -15,8 +15,10 @@ VESÞ1VG/ #Verkmappan
 .      .      - Geyma hugmyndir, heimildir og fleira  
 │      ├── Myndir   
 .      .      - Geyma Myndir um MF DOOM  
-│      └── Textaskjol   
-.      .      - Textinn sem verður notaður sem talar um MF DOOM  
+│      └── Textaskjol óyfirfarinn
+.      .      - Texti, samt ekki búin, hér til þess að gefa hugmynd yfir hvað ég á að skrifa
+│      └── Textaskjol 
+.      .      -  hérna verða textinn sem verður notaður í vefsíðuna
 └── VEFUR   
       └── index.html - Forsíða  
       └── Hver er MF DOOM?  
