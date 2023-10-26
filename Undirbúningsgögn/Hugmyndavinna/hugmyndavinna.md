@@ -32,7 +32,7 @@ VESÞ1VG/ #Verkmappan
          |_ index.html (Forsíða)
          |_ Hver er MF DOOM?
          |_ Daniel Dumile
-         |_ Tónlistin hans
+         |_ Verk hans
          |_ Persónur hans MF DOOM
          |_ Af hverju MF DOOM?
          |_ style.css
