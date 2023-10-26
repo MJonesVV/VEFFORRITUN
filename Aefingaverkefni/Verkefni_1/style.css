@@ -15,14 +15,11 @@ h1 {
 .poem {
     padding: 2em 4em;
     color: white;
-    background-color: rgb(68, 67, 67);
+    background-color: rgb(67, 67, 67);
     border: 4px;
 }
-.heimildir {
-    background-color: rgb(84, 238, 84);
-    color: bisque;
-}
+
 .myndir {
-    background-color: aqua;
-    color: blueviolet;
+    background-color: rgb(67, 67, 67);
+    color: white;
 }
