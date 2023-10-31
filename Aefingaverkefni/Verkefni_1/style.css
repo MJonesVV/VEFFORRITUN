@@ -12,6 +12,7 @@ h1 {
     font-weight: 500;
     color: rgb(189, 17, 17);
 }
+/* class */
 .poem {
     padding: 2em 4em;
     color: white;
@@ -22,4 +23,25 @@ h1 {
 .myndir {
     background-color: rgb(67, 67, 67);
     color: white;
+}
+/* tenglar og links */
+a {
+    color: rgb(0, 81, 81);
+}
+a:visited {
+    color: rgb(0, 216,164);
+}
+nav {
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 0.3em;
+}
+nav a {
+    color: antiquewhite;
+    padding: 3em;
+    text-decoration: none;
+}
+nav a:visited {
+    color: pink;
+
 }
