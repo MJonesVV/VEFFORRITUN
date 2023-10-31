@@ -28,3 +28,21 @@ footer p {
 	height: 5em;
 }
 
+.row {
+	display: flex;
+	flex-flow: row-reverse;
+}
+.row div {
+	flex-grow: 1;
+	text-align: center;
+}
+.col {
+	display: flex;
+	flex-flow: column-reverse;
+
+}
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

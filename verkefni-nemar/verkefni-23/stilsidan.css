@@ -1,5 +1,40 @@
+* {
+    box-sizing: border-box ;
+}
 body {
     max-width: 800px;
     margin: auto;
-    font-family: sans-serif;
+    font-family: sans-serif
+}
+header {
+    text-align: center;
+}
+.group section{
+    float: left;
+}
+.box {
+    width: 50%;
+    border: 1px solid black;
+    padding: 1em;
+}
+.bigL {
+    font-size: 5em;
+    float: left;
+    padding-right: .1em;
+}
+.imgR {
+    float: right;
+    padding-left: 0.3em;
+    width: 45%;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.athugid {
+    text-align: center;
+}
+.nedst {
+    border: 1px solid;
 }
