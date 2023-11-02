@@ -1,13 +1,59 @@
+h1 {
+    font-size: 3em;
+    font-weight: 900px;
+}
+h2 {
+    font-size: 2em;
+    font-weight: 700px;
+}
 
-nav {
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background-color: whitesmoke;
+    margin: auto;
+    
+} 
+
+/* efnisyfirlit top */
+.topmenu {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding: 0.3em;
+    margin: auto;
+}
+.topmenu a {
+    flex-grow: 1;
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    width: auto;
+    text-align: center;
+}
+.topmenu a:hover {
+    background-color: orange;
+}
+/* efnisyfirlit bottom */
+.botmenu{
+    display: flex;
+    justify-content: center;
     background-color: grey;
     padding: 0.3em;
 }
-nav a {
-    color: white;
-    padding: 3em;
+.botmenu a {
+    flex-grow: 1;
+    color: rgb(225, 225, 225);
+    border: 1px dotted black;
+    border-width: 0 1px 0 1px;
     text-decoration: none;
+    text-align: center;
 }
-nav a:visited {
-    color: orange;
+.botmenu a:hover {
+    background-color: black;
+}
+footer {
+    background-color: grey;
+    color: rgb(225, 225, 225);
 }
