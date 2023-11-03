@@ -12,8 +12,15 @@ body {
     line-height: 1.5;
     background-color: whitesmoke;
     margin: auto;
-    
 } 
+header{
+    margin: auto;
+    max-width: 960px;
+}
+main    {
+    margin: auto;
+    max-width: 960px;
+}
 
 /* efnisyfirlit top */
 .topmenu {
