@@ -42,6 +42,9 @@ main    {
 .topmenu a:hover {
     background-color: orange;
 }
+.topmenu a:active {
+    background-color: orange;
+}
 /* efnisyfirlit bottom */
 .botmenu{
     display: flex;
@@ -63,4 +66,30 @@ main    {
 footer {
     background-color: grey;
     color: rgb(225, 225, 225);
+}
+/* Grid fyrir vefsíðuna "Personur hans MF DOOM" */
+
+
+@media screen and (min-width:760px){
+    .victor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2;
+    }
+    .geedorah {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2;
+    }
+    .madvillian {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2;
+    }
+    .fleiri {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 2;
+    }
+    
 }
