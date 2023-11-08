@@ -25,6 +25,7 @@ main    {
 /* efnisyfirlit top */
 .topmenu {
     display: flex;
+    flex-flow: column;
     justify-content: center;
     background-color: grey;
     padding: 0.3em;
@@ -35,7 +36,7 @@ main    {
     display: block;
     color: white;
     text-decoration: none;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     width: auto;
     text-align: center;
 }
@@ -48,15 +49,16 @@ main    {
 /* efnisyfirlit bottom */
 .botmenu{
     display: flex;
+    flex-flow: column;
     justify-content: center;
     background-color: grey;
     padding: 0.3em;
+    margin: auto;
 }
 .botmenu a {
     flex-grow: 1;
     color: rgb(225, 225, 225);
-    border: 1px dotted black;
-    border-width: 0 1px 0 1px;
+    border-bottom: 1px solid black;
     text-decoration: none;
     text-align: center;
 }
@@ -67,29 +69,115 @@ footer {
     background-color: grey;
     color: rgb(225, 225, 225);
 }
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2;
+}
+.heimildir {
+    text-align: center;
+}
+.heimildir a {
+    color: rgb(225, 225, 225);
+    font-weight: 500;
+}
 /* Grid fyrir vefsíðuna "Personur hans MF DOOM" */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2;
+}
+/* Svegjanleg hönnun */
 
+@media screen and (min-width:760px) {
+    .main {
+        gap: 2em;
+        padding: 0;
+        max-width: 760px;
+    }
+    .topmenu {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        background-color: grey;
+        padding: 0.3em;
+        margin: auto;
+    }
+    .topmenu a {
+        border: 2px solid black;
+    }
+    .botmenu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        background-color: grey;
+        padding: 0.3em;
+        margin: auto;
+    }
+    .botmenu a {
+        border: 1px solid black;
+    }
+}
+@media screen and (min-width:960px) {
+    .main {
+        gap: 3em;
+        padding: 0;
+        max-width: 960px;
+        margin: auto;
+    }
+    .topmenu {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        background-color: grey;
+        padding: 0.3em;
+        margin: auto;
+    }
+    .topmenu a {
+        border: 0;
+        border: 2px solid black;
+    }
+    .botmenu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        background-color: grey;
+        padding: 0.3em;
+        margin: auto;
+    }
+    .botmenu a {
+        border: 1px solid black;
+    }
 
-@media screen and (min-width:760px){
-    .victor {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2;
+}
+@media screen and (min-width:1280px) {
+    .main {
+        gap: 3em;
+        padding: 0;
+        max-width: 1280px;
+        margin: auto;
     }
-    .geedorah {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2;
+    .topmenu {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        background-color: grey;
+        padding: 0.3em;
+        margin: auto;
     }
-    .madvillian {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2;
+    .topmenu a {
+        border: 0;
+        border: 2px solid black;
     }
-    .fleiri {
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        gap: 2;
+    .botmenu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        background-color: grey;
+        padding: 0.3em;
+        margin: auto;
     }
-    
+    .botmenu a {
+        border: 1px solid black;
+    }
 }
