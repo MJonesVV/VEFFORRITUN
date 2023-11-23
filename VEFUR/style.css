@@ -16,18 +16,22 @@ body {
 header{
     margin: auto;
     max-width: 960px;
+    text-align: center;
 }
 main    {
     margin: auto;
     max-width: 960px;
 }
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 /* efnisyfirlit top */
 .topmenu {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    background-color: grey;
+    background-color: rgb(177, 177, 177);
     padding: 0.3em;
     margin: auto;
 }
@@ -40,10 +44,7 @@ main    {
     width: auto;
     text-align: center;
 }
-.topmenu a:hover {
-    background-color: orange;
-}
-.topmenu a:active {
+.topmenu a:hover, .topmenu a:active {
     background-color: orange;
 }
 /* efnisyfirlit bottom */
@@ -62,13 +63,22 @@ main    {
     text-decoration: none;
     text-align: center;
 }
-.botmenu a:hover {
+.botmenu a:hover, .botmenu a:active {
     background-color: black;
 }
 footer {
     background-color: grey;
     color: rgb(225, 225, 225);
 }
+/* Verkefni */
+.verkefni a {
+    display: flex;
+    flex-flow: column;
+    text-align: center; 
+    color: rgb(225, 225, 225);
+}
+
+/* Heimildir */
 .heimildir {
     text-align: center;
 }
@@ -76,26 +86,117 @@ footer {
     color: rgb(225, 225, 225);
     font-weight: 500;
 }
-/* Grid fyrir vefsíðuna "Personur hans MF DOOM" */
-.col-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2;
+/*Personur*/
+.main header {
+    text-align: center;
 }
-.col-3 {
+.persona {
+    display: grid;
+    grid-template-columns: 0.75fr 1.25fr;
+    font-size: 20px;
+}
+.article {
+    grid-area: 'article';
+}
+.aside {
+    grid-area: 'aside';
+}
+/*Forsida*/
+.forsidamain h2 {
+    border: 2px solid black;
+}
+.forsidamain h2:hover{
+    background-image: url("Myndir_MF_DOOM/MFDOOM_Trans.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: grey;
+    color: white;
+}
+/*Dumile*/
+.dumile_col_3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2;
+    gap: none;
 }
-.col-4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 2;
+/*Myndir*/
+.plotumynd {
+        display: grid;
+        grid-template-columns: 1.4fr 0.6fr;
+        border: 1px solid black;
+        line-height: 0.7;
 }
+.plotumynd article{
+    border-right: 2px solid black;
+}
+
+
 /* Svegjanleg hönnun */
+@media screen and (max-width: 760px) {
+    h1 {
+        font-size: 2em;
+        font-weight: 900px;
+    }
+    h2 {
+        font-size: 1.5em;
+        font-weight: 500px;
+    }
+    .col-2 {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 2;
+        
+    }
+    .col-3 {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 2;
+    }
+    .col-4 {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 2;
+    }
+    .col-2 section, .col-3 section, .col-4 section{
+        border-bottom: 1px solid  rgb(225, 225, 225);
+    }
+    /*Personur*/
+    .persona {
+    display: grid;
+    grid-template: 
+    'article'
+    'aside';
+    }
+    /*Myndir*/
+    .plotumynd {
+    display: grid;
+    grid-template: 
+        'article'
+        'aside'
+        ;
+    border: 1px solid black;
+    }
+    .plotumynd article{
+    border-right: none;
+    text-align: center;
+    }
+    .plata{
+       text-align: center;
+    }
+  }
+
+/* SPJALDTÖLVUR */
 
 @media screen and (min-width:760px) {
-    .main {
+    h1 {
+        font-size: 3em;
+        font-weight: 900px;
+    }
+    h2 {
+        font-size: 1.7em;
+        font-weight: 500px;
+    }
+    main {
         gap: 2em;
         padding: 0;
         max-width: 760px;
@@ -104,7 +205,7 @@ footer {
         display: flex;
         flex-flow: row;
         justify-content: center;
-        background-color: grey;
+        background-color: rgb(177, 177, 177);
         padding: 0.3em;
         margin: auto;
     }
@@ -122,9 +223,38 @@ footer {
     .botmenu a {
         border: 1px solid black;
     }
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2;
+    }
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2;
+    }
+    .col-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2;
+    }
+    .col-2 section, .col-3 section, .col-4 section{
+        border-bottom: none;
+    }
 }
+
+/* FARTÖLVUR */
+
 @media screen and (min-width:960px) {
-    .main {
+    h1 {
+        font-size: 2.5em;
+        font-weight: 900px;
+    }
+    h2 {
+        font-size: 2em;
+        font-weight: 500px;
+    }
+    main {
         gap: 3em;
         padding: 0;
         max-width: 960px;
@@ -134,7 +264,7 @@ footer {
         display: flex;
         flex-flow: row;
         justify-content: center;
-        background-color: grey;
+        background-color: rgb(177, 177, 177);
         padding: 0.3em;
         margin: auto;
     }
@@ -153,10 +283,38 @@ footer {
     .botmenu a {
         border: 1px solid black;
     }
-
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2;
+    }
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2;
+    }
+    .col-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2;
+    }
+    .col-2 section, .col-3 section, .col-4 section{
+        border-bottom: none;
+    }
 }
+
+/* TÖLVUR */
+
 @media screen and (min-width:1280px) {
-    .main {
+    h1 {
+        font-size: 3.5em;
+        font-weight: 900px;
+    }
+    h2 {
+        font-size: 2.5em;
+        font-weight: 700px;
+    }
+    main {
         gap: 3em;
         padding: 0;
         max-width: 1280px;
@@ -166,7 +324,7 @@ footer {
         display: flex;
         flex-flow: row;
         justify-content: center;
-        background-color: grey;
+        background-color: rgb(177, 177, 177);
         padding: 0.3em;
         margin: auto;
     }
@@ -184,5 +342,23 @@ footer {
     }
     .botmenu a {
         border: 1px solid black;
+    }
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2;
+    }
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2;
+    }
+    .col-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2;
+    }
+    .col-2 section, .col-3 section, .col-4 section{
+        border-bottom: none;
     }
 }
