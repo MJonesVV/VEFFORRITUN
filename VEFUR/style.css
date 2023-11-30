@@ -6,17 +6,20 @@ h2 {
     font-size: 2em;
     font-weight: 700px;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Literata', serif;
     line-height: 1.5;
     background-color: whitesmoke;
     margin: auto;
 } 
-header{
+header h1{
     margin: auto;
     max-width: 960px;
     text-align: center;
+    margin-top: 1em;
 }
 main    {
     margin: auto;
@@ -70,14 +73,18 @@ footer {
     background-color: grey;
     color: rgb(225, 225, 225);
 }
-/* Verkefni */
+/* Verkefni og tengalr*/
 .verkefni a {
     display: flex;
     flex-flow: column;
     text-align: center; 
     color: rgb(225, 225, 225);
 }
-
+.tenglar a {
+    display: flex;
+    flex-flow: column; 
+    color: rgb(225, 225, 225);
+}
 /* Heimildir */
 .heimildir {
     text-align: center;
@@ -86,6 +93,12 @@ footer {
     color: rgb(225, 225, 225);
     font-weight: 500;
 }
+.heimmain {
+    text-align: center;
+}
+.heimheader {
+    text-align: center;
+}
 /*Personur*/
 .main header {
     text-align: center;
@@ -93,7 +106,6 @@ footer {
 .persona {
     display: grid;
     grid-template-columns: 0.75fr 1.25fr;
-    font-size: 20px;
 }
 .article {
     grid-area: 'article';
@@ -113,6 +125,7 @@ footer {
     background-color: grey;
     color: white;
 }
+
 /*Dumile*/
 .dumile_col_3 {
     display: grid;
@@ -129,7 +142,19 @@ footer {
 .plotumynd article{
     border-right: 2px solid black;
 }
-
+.upp {
+    color: white;
+    background-color: grey;
+    position: fixed;
+    right: .6em;
+    top: .6em;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px 12px;
+    font-size: 1.6em;
+    text-align: center;
+    text-decoration: none;
+}
 
 /* Svegjanleg hönnun */
 @media screen and (max-width: 760px) {
@@ -183,14 +208,24 @@ footer {
     .plata{
        text-align: center;
     }
+    .upp {
+
+        position: fixed;
+        right: 1em;
+        top: 1em;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 2px 12px;
+        font-size: 1.6em;
+    }
   }
 
 /* SPJALDTÖLVUR */
 
 @media screen and (min-width:760px) {
     h1 {
-        font-size: 3em;
-        font-weight: 900px;
+        font-size: 4em;
+        font-weight: 700px;
     }
     h2 {
         font-size: 1.7em;
@@ -240,6 +275,13 @@ footer {
     }
     .col-2 section, .col-3 section, .col-4 section{
         border-bottom: none;
+    }
+    .upp {
+        position: fixed;
+        right: 1em;
+        top: 1em;
+        padding: 2px 12px;
+        font-size: 1.6em;
     }
 }
 
@@ -301,18 +343,32 @@ footer {
     .col-2 section, .col-3 section, .col-4 section{
         border-bottom: none;
     }
+    .upp {
+        color: white;
+        background-color: grey;
+        position: fixed;
+        right: 2em;
+        bottom: 2em;
+        top: inherit;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 2px 12px;
+        font-size: 1.6em;
+        text-align: center;
+        text-decoration: none;
+    }
 }
 
 /* TÖLVUR */
 
 @media screen and (min-width:1280px) {
     h1 {
-        font-size: 3.5em;
+        font-size: 5em;
         font-weight: 900px;
     }
     h2 {
-        font-size: 2.5em;
-        font-weight: 700px;
+        font-size: 2.2em;
+        font-weight: 600px;
     }
     main {
         gap: 3em;
@@ -360,5 +416,19 @@ footer {
     }
     .col-2 section, .col-3 section, .col-4 section{
         border-bottom: none;
+    }
+    .upp {
+        color: white;
+        background-color: grey;
+        position: fixed;
+        right: 2em;
+        bottom: 2em;
+        top: inherit;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 2px 12px;
+        font-size: 1.6em;
+        text-align: center;
+        text-decoration: none;
     }
 }
