@@ -8,11 +8,13 @@ iframe {
     height:168px; 
     margin: auto;
   }
-
 @media screen and (min-width: 400px) {
     .gluggi {
       width:400px; 
       height:224px; 
+    }
+    .spotify {
+      width: 80%;
     }
  }
 
@@ -21,6 +23,9 @@ iframe {
      width:480px;     
      height:269px; 
    }
+   .spotify {
+    width: 80%;
+  }
  }
 
 @media screen and (min-width: 600px) {
@@ -28,13 +33,18 @@ iframe {
       width:600px;    
       height:336px; 
     }
+    .spotify {
+      width: 80%;
+    }
  }
 
  @media screen and (min-width:768px) {
   .gluggi {
     width:768px; 
-    height:432px; 
+    height:432px;
+     
   }
+  
 }
 @media screen and (min-width: 960px) {
   .gluggi {
