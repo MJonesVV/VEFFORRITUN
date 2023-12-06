@@ -75,6 +75,7 @@ img {
 footer {
     background-color: grey;
     color: rgb(225, 225, 225);
+    padding: 0 4em 0 4em;
 }
 /* Verkefni og tengalr*/
 .verkefni a {
@@ -109,6 +110,7 @@ footer {
 .persona {
     display: grid;
     grid-template-columns: 0.75fr 1.25fr;
+    gap: 2em;
 }
 .article {
     grid-area: 'article';
@@ -117,9 +119,7 @@ footer {
     grid-area: 'aside';
 }
 /*Forsida*/
-.forsidamain h2 {
-    border: 2px solid black;
-}
+
 .forsidamain h2:hover{
     background-image: url("Myndir_MF_DOOM/MFDOOM_Trans.png");
     background-repeat: no-repeat;
@@ -134,6 +134,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: none;
+}
+.col-2 {
+    display: grid;
+    gap: 2em;
 }
 /*Myndir*/
 .plotumynd {
@@ -175,6 +179,9 @@ footer {
         gap: 2;
         
     }
+    footer {
+        padding: 0 2em 0 2em;
+    }
     .col-3 {
         display: grid;
         grid-template-rows: 1fr;
@@ -194,6 +201,7 @@ footer {
     grid-template: 
     'article'
     'aside';
+    gap: 1em;
     }
     /*Myndir*/
     .plotumynd {
