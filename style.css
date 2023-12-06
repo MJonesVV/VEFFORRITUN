@@ -137,10 +137,10 @@ footer {
 }
 /*Myndir*/
 .plotumynd {
-        display: grid;
-        grid-template-columns: 1.55fr 0.45fr;
-        border: 1px solid black;
-        line-height: 0.7;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    border: 1px solid black;
+    line-height: 0.7;
 }
 .plotumynd article{
     border-right: 2px solid black;
@@ -278,6 +278,12 @@ footer {
     }
     .col-2 section, .col-3 section, .col-4 section{
         border-bottom: none;
+    }
+    .plotumynd {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        border: 1px solid black;
+        line-height: 0.7;
     }
     .upp {
         position: fixed;
@@ -434,4 +440,10 @@ footer {
         text-align: center;
         text-decoration: none;
     }
+    .plotumynd {
+        display: grid;
+        grid-template-columns: 1.55fr 0.45fr;
+        border: 1px solid black;
+        line-height: 0.7;
+}
 }
