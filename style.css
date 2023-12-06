@@ -15,6 +15,9 @@ body {
     background-color: whitesmoke;
     margin: auto;
 } 
+audio{
+    width: 100%;
+}
 header h1{
     margin: auto;
     max-width: 960px;
